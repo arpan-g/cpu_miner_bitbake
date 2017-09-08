@@ -1,5 +1,5 @@
 If you are building a linux image using bitbake for your embedded platform and are curious to mine either BTC/LTC you can use this recipe.
-This recipe uses cpu miner application available in:
+This recipe uses cpu miner application available at:
 https://github.com/pooler/cpuminer
 
 This is a simple recipe with the least possible parameters required to build the image.
