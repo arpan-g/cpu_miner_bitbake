@@ -7,9 +7,9 @@ Below I explain what these parameter do:
 
 DEPENDS : In depends you specify the external libraries applicaion depends on. Since cpu miner depends on crl we add curl.
 
-inherit autotools since the application uses autotools to build the application.
+inherit autotools: since the application uses autotools to build the application.
 
-SRCREV : Here you give the commit number, for which you want to build you applicaion. I jhave used the lates commit number the repo was on 8th sep 2017. To find out the commit number checkout the cpu miner from https://github.com/pooler/cpuminer. Using the command git log you can see various commit numbers and you can choose the SRCREV you want to use.
+SRCREV : Here you give the commit number, using which you want to build you applicaion. I have used the latest commit number the repo had on 8th sep 2017. To find out the commit number checkout the cpu miner from https://github.com/pooler/cpuminer. Using the command git log you can see various commit numbers and you can choose the SRCREV you want to use.
 
 SRC_URI : Corresponds to the URI of the repository.
 
